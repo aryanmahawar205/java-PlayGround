@@ -4,3 +4,14 @@ There are 4 types of access modifiers/specifiers in Java
 - protected
 - default
 
+public - stuff can be accessed by anyone in the class and also anyone in another package
+can also access it
+
+private - here stuff is only accessible within the class, anything outside the class
+cannot access it
+
+protected - all stuff within the same package can access it, but in any other
+package, only the subclasses can access it
+
+default - you don't really have to specify it, since it already exists
+here all stuff within the same package can access it, but any other package cannot
