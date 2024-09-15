@@ -1,0 +1,6 @@
+There are 4 types of access modifiers/specifiers in Java
+- public
+- private
+- protected
+- default
+
