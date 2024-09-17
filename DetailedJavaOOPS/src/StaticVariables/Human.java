@@ -14,5 +14,7 @@ public class Human
         this.name = name;
         this.salary = salary;
         this.married = married;
+
+        this.population += 1;
     }
 }
