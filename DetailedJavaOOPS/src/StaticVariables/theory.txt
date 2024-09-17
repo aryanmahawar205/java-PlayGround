@@ -2,3 +2,5 @@ Static variables in a class are those variables who are common to a class
 and do not depend specifically on any object.
 
 They are generally not referenced with the object name instead with the Class name.
+
+They are object independent. You can access them by just referencing with class name even without creating an object.
