@@ -1,0 +1,4 @@
+The static block helps to perform the initialization of static variables.
+
+This can be done via a static block and that block will only be executed only once
+when the class is first loaded.
