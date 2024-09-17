@@ -14,6 +14,7 @@ public class Singleton
 
     public static Singleton getInstance()
     {
+        // to check if only one object is created
         if (instance == null)
         {
             instance = new Singleton();
