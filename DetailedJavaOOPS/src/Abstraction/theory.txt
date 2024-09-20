@@ -1,0 +1,1 @@
+Abstraction means to hide unnecessary details, but only showing essential information
