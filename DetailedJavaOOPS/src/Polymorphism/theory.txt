@@ -10,3 +10,8 @@ Types of Polymorphism:
 --- achieved via function/method overriding
 --- basically in overriding, everything is same for a
 --- particular method or function, except for its body/implementation
+
+NOTE: WHAT IS UPCASTING?
+say, Parent object = new Child(); // this is some code line, where the reference object is to the Parent class, but the object being referenced is the child class type
+HERE, WHICH METHOD(S) WILL BE CALLED DEPENDS UPON THE CLASS TYPE TO THE 'RIGHT HAND SIDE' OF '=' SIGN (IE. HERE THE Child CLASS)
+THIS IS KNOWN AS UPCASTING AND THE ENTIRE PROCESS OF THIS TAKING PLACE IS WHAT EXACTLY IS THE REAL CRUX OF OVERRIDING
