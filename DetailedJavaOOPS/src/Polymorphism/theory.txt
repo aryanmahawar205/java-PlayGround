@@ -1,0 +1,12 @@
+Types of Polymorphism:
+
+1. Compile time / Static polymorphism:
+--- achieved via function/method overloading
+--- function/method overloading essentially means having same name
+--- but arguments, return types and ordering of argument types can be different
+--- ex. having multiple constructors
+
+2. Run time / Dynamic polymorphism:
+--- achieved via function/method overriding
+--- basically in overriding, everything is same for a
+--- particular method or function, except for its body/implementation
