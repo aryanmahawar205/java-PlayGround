@@ -1,0 +1,1 @@
+Encapsulation literally means wrapping up the implementation of data members and methods in a class.
