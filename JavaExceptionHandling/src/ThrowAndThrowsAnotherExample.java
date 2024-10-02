@@ -1,3 +1,6 @@
+// the throws keyword is used to declare an exception
+// this given information to the programmer that there might be an exception thus it is better to be prepared with a try catch block
+
 import java.util.Scanner;
 
 class NegativeRadiusException extends Exception
