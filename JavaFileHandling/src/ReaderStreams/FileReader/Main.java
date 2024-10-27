@@ -1,4 +1,4 @@
-package Streams.FileReader;
+package ReaderStreams.FileReader;
 
 import java.io.FileReader;
 import java.io.IOException;
