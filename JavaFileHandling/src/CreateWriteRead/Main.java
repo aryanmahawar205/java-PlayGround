@@ -23,7 +23,8 @@ public class Main
         try
         {
             FileWriter fw = new FileWriter("D:\\java-PlayGround\\JavaFileHandling\\src\\CreateWriteRead\\java-generated-file.txt");
-            fw.write("Writing into the created file...");
+            fw.write("Good Job...");
+            fw.write("\nBad Job...");
 
             fw.flush();
         }
@@ -36,8 +37,11 @@ public class Main
         // Read from the newly created file
         try
         {
-            BufferedReader br = new BufferedReader(new FileReader("D:\\java-PlayGround\\JavaFileHandling\\src\\Streams\\BufferedReader\\sentences.txt"));
-            System.out.println(br.readLine());
+            BufferedReader br = new BufferedReader(new FileReader("D:\\java-PlayGround\\JavaFileHandling\\src\\CreateWriteRead\\java-generated-file.txt"));
+            while (br.ready())
+            {
+                System.out.println(br.readLine());
+            }
         }
 
         catch (IOException e)
